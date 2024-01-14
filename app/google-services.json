@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362025194791",
+    "project_id": "fir-phonenumberotp-bcef8",
+    "storage_bucket": "fir-phonenumberotp-bcef8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362025194791:android:b8a6cd1c848f6d91cc0502",
+        "android_client_info": {
+          "package_name": "com.example.phonenumberotp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8e1JLHXp_QBMdqfWrrQBozeq5mbUdQCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
