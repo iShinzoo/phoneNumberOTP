@@ -8,12 +8,23 @@
     android:background="@color/white">
 
     <TextView
+        android:id="@+id/textB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Basic Information"
+        android:textSize="26sp"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textB"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Add Information"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
